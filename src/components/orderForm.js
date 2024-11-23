@@ -11,7 +11,7 @@ const OrderForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log("Order submitted:", order);
-    alert("Order placed successfully!");
+    alert("Order placed successfully1!");
     setOrder({ name: "", phone: "", foodItem: "" });
   };
 
